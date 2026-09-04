@@ -8,7 +8,13 @@ There are two different scripts that do the same thing. The *Walter.R* script ta
 Note about changes to the input data:
 
 The documentation for **ggclimat_walter_lieth** requires the following data format:
- - Mean monthly precipitation
- - Mean maximum daily temperature
- - Mean minimum daily temperature
- - Absolute monthly minimum temperature
+ - Mean monthly precipitation,
+ - Mean maximum daily temperature,
+ - Mean minimum daily temperature,
+ - Absolute monthly minimum temperature.
+
+The available data only contained mean monthly temperature, so I used that to make the diagrams instead. They still provide valuable information and the code still works well, but if you have actual mean max and min and absolute min temperatures, please use them instead. My input array is actually in this format:
+ - Mean monthly precipitation,
+ - Mean monthly temperature,
+ - Mean monthly temperature,
+ - Array of 12 zeros.
