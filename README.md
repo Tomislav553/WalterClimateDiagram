@@ -18,3 +18,9 @@ The available data only contained mean monthly temperature, so I used that to ma
  - Mean monthly temperature,
  - Mean monthly temperature,
  - Array of 12 zeros.
+
+The array of zeros is here to avoid any errors that occurred during testing the code.
+
+Here is an example of the climate diagram produced using the code.
+
+![Climate diagram for Puntijarka station from 1995. to 2024.](./Puntijarka 1995-2024 .png)
